@@ -1,2 +1,32 @@
-/*! style.css!*/
+/*! Camilo Cortes, ITMD-Project2, style.css!*/
 
+html {
+  font-family: "Calibri", "Times New Roman", serif;
+}
+
+h2 {
+  margin-top: 3em;
+}
+
+.nav {
+  position: absolute;  /* forces it over h1 heading */
+  width: 100%;
+  top: 0;  /* forces it to the top */
+  left: 0;  /* forces it to the entire screen */
+  font-family: "Times New Roman", serif;  /* same for all nav */
+  background-color: gray;
+}
+
+#navigation ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+#navigation li {
+  float: left;
+  margin: 0 0.625em;  /* at 10px, (10px/16px=0.625em) */
+}
