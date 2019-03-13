@@ -13,10 +13,6 @@ h3 {
 	justify-content: center;
 }
 
-p {
-	justify-content: center;
-}
-
 .nav {
   position: absolute;  /* forces it over h1 heading */
   width: 100%;
