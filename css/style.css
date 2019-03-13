@@ -32,6 +32,13 @@ h3 {
 	left: 0px;
 }
 
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
 #navigation ul {
   list-style-type: none;
   padding: 0;
@@ -44,4 +51,21 @@ h3 {
 #navigation li {
   float: left;
   margin: 0 0.625em;  /* at 10px, (10px/16px=0.625em) */
+}
+
+#section_header {
+	text-align: center;
+	justify-content: center;
+}
+
+#education {
+	justify-content: center;
+}
+
+#profile {
+
+}
+
+#experiance {
+
 }
