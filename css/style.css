@@ -8,6 +8,15 @@ h2 {
   margin-top: 3em;
 }
 
+h3 {
+	color: blue;
+	justify-content: center;
+}
+
+p {
+	justify-content: center;
+}
+
 .nav {
   position: absolute;  /* forces it over h1 heading */
   width: 100%;
@@ -15,6 +24,16 @@ h2 {
   left: 0;  /* forces it to the entire screen */
   font-family: "Times New Roman", serif;  /* same for all nav */
   background-color: gray;
+}
+
+.right {
+	position: absolute;
+	right: 0px;
+}
+
+.left {
+	position: absolute;
+	left: 0px;
 }
 
 #navigation ul {
