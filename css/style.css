@@ -3,6 +3,14 @@
 html {
   font-family: "Calibri", "Times New Roman", serif;
   background-color: pink;
+  margin: auto; 
+  padding-top: 10px;
+  width: 80%
+}
+
+h1 {
+margin:auto;
+width: 30%;
 }
 
 h2 {
