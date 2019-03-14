@@ -41,7 +41,7 @@ h3 {
 	left: 0px;
 }
 
-#center, #Pcenter, #Excenter {
+.Ecenter, .Pcenter, .Excenter {
   margin: auto;
   width: 50%;
   border: 3px solid green;
@@ -62,7 +62,7 @@ h3 {
   margin: 0 0.625em;  /* at 10px, (10px/16px=0.625em) */
 }
 
-.section_header {
+#section_header {
 	text-align: center;
 	justify-content: center;
 }
