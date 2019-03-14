@@ -62,7 +62,7 @@ h3 {
   margin: 0 0.625em;  /* at 10px, (10px/16px=0.625em) */
 }
 
-#section_header {
+#edu_head, #pro_head, #exp_head {
 	text-align: center;
 	justify-content: center;
 }
