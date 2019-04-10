@@ -28,7 +28,8 @@ h3 {
   top: 0;  /* forces it to the top */
   left: 0;  /* forces it to the entire screen */
   font-family: "Times New Roman", serif;  /* same for all nav */
-  background-color: gray;
+  background-color: purple;
+  padding: 5px;
 }
 
 .right {
@@ -41,9 +42,17 @@ h3 {
 	left: 0px;
 }
 
+#fleft {
+  float: left;
+}
+
+#fright {
+  float:right;
+}
+
 .Ecenter, .Pcenter, .Excenter {
-  margin: auto;
-  width: 50%;
+
+  width: 40%;
   border: 3px solid green;
   padding: 10px;
 }
@@ -55,6 +64,7 @@ h3 {
   overflow: hidden;
   display: flex;
   justify-content: center;
+  padding: 5px;
 }
 
 #navigation li {
@@ -69,4 +79,9 @@ h3 {
 
 #education {
 	justify-content: center;
+  float: right;
+}
+
+#experience {
+  float: left;
 }
