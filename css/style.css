@@ -22,6 +22,31 @@ h3 {
 	justify-content: center;
 }
 
+body > h1 {
+  font-size: 200px;
+  float: left;
+}
+
+
+body > section {
+  display: block;
+  float: right;
+}
+
+body > img {
+  display: inline;
+}
+
+div > h1 {
+  font-size: 150px;
+}
+
+.split {
+  width: 50%;
+  height: 100%;
+  position: fixed;
+}
+
 .nav {
   position: absolute;  /* forces it over h1 heading */
   width: 100%;
@@ -33,12 +58,12 @@ h3 {
 }
 
 .right {
-	position: absolute;
+
 	right: 0px;
 }
 
 .left {
-	position: absolute;
+
 	left: 0px;
 }
 
